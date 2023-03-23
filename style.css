@@ -10,7 +10,7 @@ body {
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1300px;
   margin: 0 auto;
 }
 
@@ -118,11 +118,32 @@ body {
 
 header {
   display: flex;
-  /* flex-wrap: wrap; */
 }
 
 header img {
   width: 33%;
+}
+
+header .header3 {
+  background-image: url(./img/header3.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+header .header3 p {
+  font-family: "Roboto";
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  margin: 0 0 33px 32px;
 }
 
 header .header1 {
@@ -206,6 +227,32 @@ header .header1 p {
   align-items: center;
 }
 
+.new .stein {
+  display: flex;
+  justify-content: space-between;
+}
+
+.new .stein p {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 300px;
+}
+
+.new .stein span {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  display: flex;
+  align-items: center;
+}
+
 .new .shop h1 {
   font-family: "Roboto";
   font-style: normal;
@@ -217,8 +264,59 @@ header .header1 p {
 
 .new .box {
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.new .box .shop1 {
+  background-image: url(./img/shop1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 341px;
+}
+
+.new .box .shop3 {
+  background-image: url(./img/shop3.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 341px;
+}
+
+.new .now {
+  display: flex;
+  align-items: flex-end;
+}
+
+.new .now p {
+  font-family: "Roboto";
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 0;
+  color: #000000;
+}
+
+.new .box span {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 0 0 10px 30px;
 }
 
 .bonne {
@@ -229,7 +327,43 @@ header .header1 p {
 }
 
 .bonne img {
-  width: 674px;
+  width: 650px;
+}
+
+.bonne2 {
+  background-image: url(./img/bonne2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 699px;
+}
+
+.bonne2 .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0 0 0 50px;
+  height: 100%;
+}
+
+.bonne2 .text h1 {
+  font-family: Roboto;
+  font-size: 44px;
+  font-weight: 400;
+  line-height: 60px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000000;
+}
+
+.bonne2 .text p {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000000;
 }
 
 .browse {
@@ -245,6 +379,54 @@ header .header1 p {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.browse .rings h1 {
+  font-family: Roboto;
+  font-size: 33px;
+  font-weight: 400;
+  line-height: 42px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+  margin: 0 0 5px 40px;
+}
+
+.browse .box1 {
+  background-image: url(./img/rings1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 420px;
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+}
+
+.browse .box2 {
+  background-image: url(./img/rings3.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 420px;
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+}
+
+.browse img {
+  width: 420px;
+  height: 550px;
+}
+
+.browse .p {
+  text-align: center;
+  font-size: 40px;
+  margin: 0;
 }
 
 .browse .by h1 {
@@ -280,6 +462,16 @@ header .header1 p {
   flex-wrap: wrap;
   flex-direction: column;
   margin-top: 80px;
+}
+
+.our .box h1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  color: #000000;
+  margin-bottom: 70px;
 }
 
 .together .can h1 {
@@ -329,14 +521,84 @@ header .header1 p {
   width: 672px;
 }
 
-.more {
+.more .img-box {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+
+.more p {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000000;
+  margin-left: 60px;
+}
+
+.more .box1 {
+  background-image: url(./img/w1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 699px;
+  height: 936px;
+  display: flex;
+  flex-direction: column;
+}
+
+.more .box2 {
+  background-image: url(./img/w2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 650px;
+  height: 936px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.more .box1 p {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 60px;
+}
+
+.more .box2 h1 {
+  font-family: Roboto;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 60px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-left: 10px;
+}
+
+.more .box2 p {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+
+
+}
+
+.more {
   margin-top: 50px;
 }
 
 .section {
-  background-image: url(./img/background.jpg);
+  background-image: url(./img/he.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -396,6 +658,7 @@ header .header1 p {
 footer .box {
   max-width: 1300px;
   margin: 0 auto;
+  margin-top: 100px;
 }
 
 footer .box-1 {
